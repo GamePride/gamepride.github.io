@@ -3,7 +3,7 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
  */body{font-family:sans-serif,Lato,'Helvetica Neue',Helvetica,Arial}
- h1,h2,h3,h4,h5,h6{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:650;}
+ h1,h2,h3,h4,h5,h6,p{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:650;}
 
 .btn-hover:hover
 {
@@ -79,7 +79,7 @@ section.showcase
 }
 section h2
 {
-	margin-top: 60px;
+	padding-top: 0px;
 	font-size: 30px;
 	color: red;
 	font-style: oblique;
@@ -88,9 +88,9 @@ section h2
 {
 	color:black;
 	width: 50%;
-	text-align: left;
-	padding-top: 30px;
-    margin-bottom: 160px;
+	text-align: center;
+	padding-top: 10px;
+    margin-bottom: 30px;
 }
 
 .temp
@@ -262,4 +262,20 @@ nav .sec a,li
         {
         	font-size:5rem;
 
-        }.testimonials{padding-top:7rem;padding-bottom:7rem}.testimonials .testimonial-item{max-width:18rem}.testimonials .testimonial-item img{max-width:12rem;-webkit-box-shadow:0 5px 5px 0 #adb5bd;box-shadow:0 5px 5px 0 #adb5bd}.call-to-action{position:relative;background-color:#343a40;background:url(../img/bg-masthead.jpg) no-repeat center center;background-size:cover;padding-top:7rem;padding-bottom:7rem}.call-to-action .overlay{position:absolute;background-color:#212529;height:100%;width:100%;top:0;left:0;opacity:.3}footer.footer{padding-top:4rem;padding-bottom:4rem}
+		}
+		.testimonials{padding-top:7rem;padding-bottom:7rem}
+		.testimonials .testimonial-item{max-width:18rem}
+		.testimonials .testimonial-item img{max-width:12rem;-webkit-box-shadow:0 5px 5px 0 #adb5bd;box-shadow:0 5px 5px 0 #adb5bd}
+		.call-to-action{position:relative;background-color:#343a40;background:url(../img/bg-masthead.jpg) no-repeat center center;background-size:cover;padding-top:7rem;padding-bottom:7rem}
+		.call-to-action .overlay{position:absolute;background-color:#212529;height:100%;width:100%;top:0;left:0;opacity:.3}
+		footer.footer{padding-top:4rem;padding-bottom:4rem}
+		.testimonials h2
+		{
+			padding-top: 50px;
+			padding-bottom: 30px;
+		}
+
+		.testimonials p
+		{
+			font-style: oblique;
+		}

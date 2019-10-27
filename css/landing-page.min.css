@@ -210,6 +210,78 @@ nav .sec a,li
  	font-style: italic;
 
  }
+
+ .Precios{
+    font-family: 'Open Sans',sans-serif;
+    padding: 0px 0 100px;
+    background-color: #2e333a;
+    padding-left: 225px;
+}
+
+.Precios h1{
+	padding-top: 110px;
+    font-size: 40px;
+    padding-left: 375px;
+    color: #fff;
+}
+
+.Precios p{
+    color: #fff;
+    font-family: 'Open Sans',sans-serif;
+	font-size: 15px;
+	padding-top: 70px;
+    padding-bottom: 20px;
+    padding-right: 109px;
+}
+
+.Precios .paquetes{
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+.paquetes li{
+    display: block;
+    padding: 5px;
+}
+
+.paquetes h2{
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.paquetes h3{
+    margin-top: 16px;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.paquetes h2,
+.paquetes h3{
+    font-family: 'PT Sans Narrow',Arial,sans-serif;
+    color: #4c4c4c;
+}
+
+.paquetes p{
+    padding-right: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.paquetes p,
+.paquetes li{
+    color: #737373;
+}
+
+.paquetes button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
  @media (min-width:768px)
  {
 
